@@ -1,0 +1,12 @@
+{
+  "name": "jack-devaney-music",
+  "version": "1.0.0",
+  "description": "A professional website for Jack Devaney, a musician based in Duesseldorf, Germany.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
