@@ -36,7 +36,6 @@
 .NavbarLeft{
 width: 50%;
 height: 100%;
-/* background-size: cover; */
 
 }
 .NavbarLeft img{
@@ -68,8 +67,6 @@ height: 100%;
 }
 .NavbarMenu img{
   max-height: 16%;
-  /* max-width: 10%; */
-  /* float: right; */
   cursor: pointer;
 }
 .NavbarMenu img:hover{
@@ -92,8 +89,7 @@ height: 100%;
 }
 
 .Content{
- /* height: 87vh; */
- /* max-height: 87vh; */
+
 }
 
 .Footer{
@@ -106,9 +102,10 @@ height: 100%;
 }
 .Footer img{
   max-height: 100%;
-  max-width: 100%;
   cursor: pointer;
   float: left;
+
+  
 }
 .Footer img:hover{
   opacity: 0.5;

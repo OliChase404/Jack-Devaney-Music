@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "A professional website for Jack Devaney, a musician based in Duesseldorf, Germany.",
   "main": "index.js",
+  "homepage": "https://olichase404.github.io/Jack-Devaney-Music/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
