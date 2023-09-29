@@ -64,7 +64,7 @@ height: 100%;
   width: 100%;
   height: 50%;
   background-color: rgba(0, 0, 0, 0.808);
-  z-index: 2;
+  z-index: 3;
 }
 .NavbarMenu img{
   max-height: 16%;
@@ -82,12 +82,18 @@ height: 100%;
   color: #ffffff;
 }
 .NavbarMenuLinks div{
+  cursor: pointer;
   margin-bottom: 1%;
   letter-spacing: 2px;
+}
+.NavbarMenuLinks div:hover{
+  color: #ffffff;
+  opacity: 0.5;
 }
 
 .Content{
  height: 87vh;
+ /* max-height: 87vh; */
 }
 
 .Footer{
@@ -103,6 +109,34 @@ height: 100%;
 
 
 .Home{
+
+}
+.Banner{
+  margin: 2%;
+  cursor: pointer;
+}
+.Banner :hover{
+  position: relative;
+  border: #ffffff 2px solid;
+}
+.MoodyJack{
+  max-width: 96%;
+  z-index: 1;
+}
+ .AlbumArt{
+  position: absolute;
+  max-width: 42%;
+  left: 0;
+  z-index: 2;
+  margin: 3%;
+  margin-left: 8%;
+}
+.AlbumLink{
+  position: absolute;
+  right: 8%;
+  top: 35%;
+  z-index: 2;
+  font-size: 3vw;
 }
 
 .Hidden{
