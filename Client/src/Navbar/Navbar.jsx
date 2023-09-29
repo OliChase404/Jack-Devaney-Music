@@ -1,9 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 
-function Navbar(){
-
-    const [showMenu, setShowMenu] = useState(false)
+function Navbar({showMenu, setShowMenu}){
 
 
     return(

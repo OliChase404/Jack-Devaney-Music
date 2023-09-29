@@ -6,17 +6,31 @@ import Home from './Home/Home'
 import Footer from './Footer/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [showMenu, setShowMenu] = useState(false)
+
 
   return (
     <div className='App'>
-    <Navbar />
+      <div className={showMenu ? "NavbarMenu" : "Hidden"}>
+      <img onClick={() => setShowMenu(!showMenu)} src="src/assets/homepage Navbar menu icon.jpg" alt="menu"/>
+      <div className='NavbarMenuLinks'>
+        <div>MUSIC</div>
+        <div>originals | covers</div>
+        <div>ABOUT</div>
+        <div>CONCERTS</div>
+        <div>BOOKING</div>
+      </div>
+
+
+        
+      </div>
+      <Navbar showMenu={showMenu} setShowMenu={setShowMenu} />
       <div className='Content'>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
-    <Footer />
+      <Footer />
     </div>
   )
 }
