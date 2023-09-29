@@ -11,12 +11,11 @@ function Home(){
     return (
         <div className="Home">
 
-            <div onClick={() => handleBannerClick()} onMouseEnter={() => setShowAlbumLink(true)} onMouseLeave={() => setShowAlbumLink(false)} className="Banner">
+            <div onClick={() => handleBannerClick()} onPointerEnter={() => setShowAlbumLink(true)} onPointerLeave={() => setShowAlbumLink(false)} className="Banner">
                 {showAlbumLink ? 
-                <img src="https://res.cloudinary.com/deepreadscloud/image/upload/v1696018548/TPL_ad_bg_Dark_Text_ckzdpv.png" alt="Moody Jack" className="MoodyJack"/> : 
-                <img src="https://res.cloudinary.com/deepreadscloud/image/upload/v1696018548/TPL_ad_bg_qzh6be.png" alt="Moody Jack" className="MoodyJack"/> 
+                <img src="https://res.cloudinary.com/deepreadscloud/image/upload/v1696025428/Banner-Text_umbb68.png" alt="Moody Jack Dark" className="MoodyJack"/> : 
+                <img src="https://res.cloudinary.com/deepreadscloud/image/upload/v1696025429/Banner_bbfanm.png" alt="Moody Jack" className="MoodyJack"/> 
                 }
-                <img src="https://res.cloudinary.com/deepreadscloud/image/upload/v1696018548/TPL_COVERART_enn9ub.png" alt="The Phantom Limb" className="AlbumArt"/>
             </div>
 
             <div className="ReviewTextBlock">

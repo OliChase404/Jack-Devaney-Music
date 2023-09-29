@@ -118,6 +118,7 @@ height: 100%;
 .Banner{
   margin: 2%;
   cursor: pointer;
+  z-index: 3;
 }
 .Banner :hover{
   position: relative;
@@ -125,15 +126,6 @@ height: 100%;
 }
 .MoodyJack{
   max-width: 96%;
-  z-index: 1;
-}
- .AlbumArt{
-  position: absolute;
-  max-width: 42%;
-  left: 0;
-  z-index: 2;
-  margin: 3%;
-  margin-left: 8%;
 }
 
 .ReviewTextBlock{
