@@ -13,10 +13,10 @@ function Home(){
 
             <div onClick={() => handleBannerClick()} onMouseEnter={() => setShowAlbumLink(true)} onMouseLeave={() => setShowAlbumLink(false)} className="Banner">
                 {showAlbumLink ? 
-                <img src="src/assets/TPL_ad_bg_Dark_Text.png" alt="Moody Jack" className="MoodyJack"/> : 
-                <img src="src/assets/TPL_ad_bg.png" alt="Moody Jack" className="MoodyJack"/> 
+                <img src="https://res.cloudinary.com/deepreadscloud/image/upload/v1696018548/TPL_ad_bg_Dark_Text_ckzdpv.png" alt="Moody Jack" className="MoodyJack"/> : 
+                <img src="https://res.cloudinary.com/deepreadscloud/image/upload/v1696018548/TPL_ad_bg_qzh6be.png" alt="Moody Jack" className="MoodyJack"/> 
                 }
-                <img src="src/assets/TPL COVERART.png" alt="The Phantom Limb" className="AlbumArt"/>
+                <img src="https://res.cloudinary.com/deepreadscloud/image/upload/v1696018548/TPL_COVERART_enn9ub.png" alt="The Phantom Limb" className="AlbumArt"/>
             </div>
 
             <div className="ReviewTextBlock">
