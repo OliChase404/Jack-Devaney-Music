@@ -28,8 +28,9 @@ function App() {
       <Navbar showMenu={showMenu} setShowMenu={setShowMenu} />
       {/* <div className='Content'> */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Jack-Devaney-Music" element={<Home />} />
         </Routes>
+        {/* <Home /> */}
       {/* </div> */}
       <Footer />
     </div>
