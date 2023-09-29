@@ -25,11 +25,11 @@ function App() {
         
       </div>
       <Navbar showMenu={showMenu} setShowMenu={setShowMenu} />
-      <div className='Content'>
+      {/* <div className='Content'> */}
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </div>
+      {/* </div> */}
       <Footer />
     </div>
   )

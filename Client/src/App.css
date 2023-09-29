@@ -8,13 +8,13 @@
 }
 
 .App{
-  position: relative;
   background-image: url("src/assets/homepage_bg.jpg");
+  position: relative;
   background-repeat: no-repeat;
   background-attachment:fixed ;
   background-size: cover;
   margin: 0 auto;
-  height: 99vh;
+  /* height: 100vh; */
   /* aspect-ratio: 10/16; */
   border: #160201 1px solid;
   font-family: 'Playfair Display', serif;
@@ -78,7 +78,7 @@ height: 100%;
 .NavbarMenuLinks{
   padding: 2%;
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 3vh;
   color: #ffffff;
 }
 .NavbarMenuLinks div{
@@ -92,19 +92,17 @@ height: 100%;
 }
 
 .Content{
- height: 87vh;
+ /* height: 87vh; */
  /* max-height: 87vh; */
 }
 
 .Footer{
-
   bottom: 0;
   width: 100%;
   height: 5vh;
   background-color: #000000;
   color: #ffffff;
   text-align: center;
-
 }
 
 
@@ -131,13 +129,23 @@ height: 100%;
   margin: 3%;
   margin-left: 8%;
 }
-.AlbumLink{
-  position: absolute;
-  right: 8%;
-  top: 35%;
-  z-index: 2;
-  font-size: 3vw;
+
+.ReviewTextBlock{
+  font-family: 'Caudex', serif;
+  font-size: 1.4vh;
+  background-color: #000000b7;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  padding: 1%;
+  word-spacing: 2px;
+  text-align: left;
+  letter-spacing: 1px;
+  text-shadow: #000000 2px 2px 2px;
 }
+
 
 .Hidden{
   display: none;
