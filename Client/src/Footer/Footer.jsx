@@ -6,7 +6,8 @@ function Footer(){
 
     return (
         <div className="Footer">
-            Footer
+                <img src="src/assets/Contact-Icon.jpg" alt="Contact" className="ContactIcon"/>
+                <p>Impressum | Datenschutz</p>
         </div>
     )
 }

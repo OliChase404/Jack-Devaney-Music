@@ -104,6 +104,15 @@ height: 100%;
   color: #ffffff;
   text-align: center;
 }
+.Footer img{
+  max-height: 100%;
+  max-width: 100%;
+  cursor: pointer;
+  float: left;
+}
+.Footer img:hover{
+  opacity: 0.5;
+}
 
 
 .Home{
